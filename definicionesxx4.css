@@ -1,71 +1,4 @@
-@media (max-width:1920px) and (min-width:1000px)
-   {
-    .container{
-        width: 700px; 
-        height: 200px;
-        display:flex;
-        flex-direction: column;
-        border-width: 0px;
-        border-style:solid ;
-        
-        border-color: brown;
-        
-       
-      }
-      .gris_oscuro{
-        background-color:darkgray ;
-        height: 70px;
-        width: 700px;
-        font-weight: bold;
-        font-size: 30px;
-     }
-    
-    
-      .con_enlaces{  
-    
-        background-color:rgb(234, 168, 27) ;
-        height: 50px;
-        font-weight:400;
-        font-size: 13px;
-        
-    }
-        .media_queries{
-            background-color:lightgoldenrodyellow;
-            font-size: 20px;
-            font-weight: bold;
-    
-    
-        }
-        .media_queries_g{
-            background-color:lightgoldenrodyellow;
-            font-size: large;
-                }
-    
-    .azul{  
-    
-        background-color:rgb(205, 183, 135) ;
-        height: 50px;
-        font-size: 20px;
-            font-weight: bold;
-    
-    }
-    .azul_c{
-        background-color:rgb(205, 183, 135) ;
-        font-size: large;
-            }
-    .rojo{  
-    
-        background-color:rgb(172, 47, 41);
-        width: 200px;
-        height: 200px;
-        
-        font-size: 30px;
-        margin-left: 0px;
-        
-    }
- 
-
-@media (max-width:1000)
+@media (max-width:800px)
 {
     .container{
         width: 700px; 
@@ -130,8 +63,79 @@
         margin-left: 0px;
         
     }
+ 
 }
+@media (max-width:1920px)
+    {
+    .container{
+        width: 700px; 
+        height: 200px;
+        display:flex;
+        flex-direction:row;
+        border-width: 0px;
+        border-style:solid ;
+        
+        border-color: rgb(136, 165, 42);
+        
+       
+      }
+      .gris_oscuro{
+        background-color:rgb(169, 169, 169) ;
+        height: 70px;
+        width: 700px;
+        font-weight: bold;
+        font-size: 30px;
+     }
+    
+    
+      .con_enlaces{  
+    
+        background-color:rgb(234, 168, 27) ;
+        height: 50px;
+        font-weight:400;
+        font-size: 13px;
+        
+    }
+        .media_queries{
+            background-color:lightgoldenrodyellow;
+            font-size: 20px;
+            font-weight: bold;
+    
+    
+        }
+        .media_queries_g{
+            background-color:lightgoldenrodyellow;
+            font-size: large;
+                }
+    
+    .azul{  
+    
+        background-color:rgb(205, 183, 135) ;
+        height: 50px;
+        font-size: 20px;
+            font-weight: bold;
+    
+    }
+    .azul_c{
+        background-color:rgb(205, 183, 135) ;
+        font-size: large;
+            }
+    .rojo{  
+    
+        background-color:rgb(172, 47, 41);
+        width: 200px;
+        height: 200px;
+        
+        font-size: 30px;
+        margin-left: 0px;
+        
+    }
 }
+
+
+  
+
+  
 
   
 
