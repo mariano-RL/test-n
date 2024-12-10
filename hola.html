@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar fondo con cuadrados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+        .cuadro {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            cursor: pointer;
+            display: inline-block;
+            transition: transform 0.3s;
+        }
+        .cuadro:hover {
+            transform: scale(1.1);
+        }
+        #cuadro1 {
+            background-color: red;
+        }
+        #cuadro2 {
+            background-color: green;
+        }
+        #cuadro3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="cuadro1" class="cuadro" onclick="cambiarFondo('red')"></div>
+    <div id="cuadro2" class="cuadro" onclick="cambiarFondo('green')"></div>
+    <div id="cuadro3" class="cuadro" onclick="cambiarFondo('blue')"></div>
+
+    <script>
+        function cambiarFondo(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
